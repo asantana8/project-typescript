@@ -28,13 +28,13 @@ enum Profissao {
     Padeiro,
     Contador,
     MMCFigther
-};
+}
 
 enum Genero {
     M,
     F,
     O
-};
+}
 
 interface Gente 
 {
@@ -42,19 +42,19 @@ interface Gente
     idade : number,
     sexo : Genero,
     profissao? : Profissao
-};
+}
 
 const pessoa : Gente = {
     nome : "Maria Eloiza",
     idade : 14,
     sexo : Genero.F,
     profissao : Profissao.Analista
-};
+}
 
 const outraPessoa : Gente = {
     nome : "Maria Eloiza",
     idade : 14,
     sexo : Genero.F    
-};
+}
 
 console.log(`Pessoa 1 é ${pessoa} e pessoas 2 é ${outraPessoa}.`)
